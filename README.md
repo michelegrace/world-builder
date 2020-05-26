@@ -4,9 +4,9 @@ Just a fun project to build an interactive map-maker for my D&D group!
 
 ## What's got to happen
 
-✔️ Choose die (D20 for settlements, D6 for events, D4 for history)
-✔️ Toss "Beans" to allow randomize continent(s) configuration
-✔️ Clear beans off canvas
+- ✔️ Choose die (D20 for settlements, D6 for events, D4 for history)
+- ✔️ Toss "Beans" to allow randomize continent(s) configuration
+- ✔️ Clear beans off canvas
 
 - Allow users to draw/edit map features
   - Line for the continent

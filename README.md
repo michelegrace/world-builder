@@ -1,14 +1,6 @@
 # World Building Project
 
----
-
 Just a fun project to build an interactive map-maker for my D&D group!
-
-## Tools
-
-- NPM
-- Webpack
-- SCSS
 
 ## What's got to happen
 

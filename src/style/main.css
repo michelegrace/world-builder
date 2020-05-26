@@ -1,0 +1,46 @@
+:root {
+  --mainbg: #e7d4b5;
+  --desert: #d5b794;
+  --meadow: #8db580;
+  --forest: #294936;
+  --forest2: #c2cfb2;
+  --outline: #442e26;
+  --lakes: #246a73;
+  --building: #bd897e;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.worldBuildingContainer {
+  position: relative;
+}
+
+#worldBuilder {
+  z-index: 9;
+}
+
+#beanLayer {
+  background: var(--mainbg);
+  top: 0;
+  left: 0;
+  min-width: 1000px;
+}
+
+.brushContainer {
+  position: absolute;
+  z-index: 999;
+}
+
+canvas {
+  width: 100%;
+  position: absolute;
+}

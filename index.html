@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style/main.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="worldBuildingContainer">
+        <div id="dieContainer">
+            <div class="dieWrapper">
+                <input min="1" max="10" type="number" id="eventDie" />
+                <label for="eventDie">Events</label>
+            </div>
+            <div class="dieWrapper">
+                <input min="1" max="10" type="number" id="historyDie" />
+                <label for="eventDie">History</label>
+            </div>
+            <div class="dieWrapper">
+                <input min="1" max="10" type="number" id="settlementDie" />
+                <label for="eventDie">Settlements</label>
+            </div>
+            <button id="startBtn" type="submit">Start Game</button>
+        </div>
+
+        <canvas style="display:none;" id="worldBuilder"></canvas>
+        <canvas style="display:none;" id="beanLayer"></canvas>
+
+        <div class="brushContainer">
+            <button id="clearBeans">Clear Beans</button>
+        </div>
+    </div>
+    
+    <script src="dist/main.js"></script>
+</body>
+</html>
